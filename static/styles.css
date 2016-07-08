@@ -1,0 +1,53 @@
+* {
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: #f0453B;
+	line-height: 29px;
+}
+
+h2 {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #f0453B;
+}
+
+h3 {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #f0453B;
+
+}
+
+.app-link {
+	font-size: 32px;
+}
+
+.top-menu {
+
+}
+
+.category-pane {
+	border-radius: 25px;
+	border: 2px solid #2f2f2f;
+	padding: 20px;
+	background-color: #f8f8f8;
+}
+
+.latest-pane {
+	border-radius: 25px;
+	border: 2px solid #2f2f2f;
+	padding: 20px;
+	background-color: #f8f8f8;
+}
+
+.item-pane {
+	border-radius: 25px;
+	border: 2px solid #2f2f2f;
+	padding: 20px;
+	background-color: #f8f8f8;
+}
