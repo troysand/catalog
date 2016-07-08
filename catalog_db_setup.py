@@ -110,5 +110,7 @@ class Item(Base):
         }
 
 # Create the database
-engine = create_engine('sqlite:///catalogitems.db')
+# engine = create_engine('sqlite:///catalogitems.db')
+engine = create_engine(
+    'postgresql+psycopg2://catalog:xmp-thfg@localhost/catalog')
 Base.metadata.create_all(engine)

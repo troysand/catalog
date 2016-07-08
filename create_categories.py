@@ -13,7 +13,10 @@ from sqlalchemy.orm import sessionmaker
 from catalog_db_setup import Base
 from catalog_db_util import createUser, createCategory, readUserID
 
-engine = create_engine('sqlite:///catalogitems.db')
+# engine = create_engine('sqlite:///catalogitems.db')
+engine = create_engine(
+    'postgresql+psycopg2://catalog:xmp-thfg@localhost/catalog')
+
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)

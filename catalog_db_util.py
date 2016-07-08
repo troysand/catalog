@@ -8,7 +8,9 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm.exc import NoResultFound
 from catalog_db_setup import Base, Category, Item, User
 
-engine = create_engine('sqlite:///catalogitems.db')
+# engine = create_engine('sqlite:///catalogitems.db')
+engine = create_engine(
+    'postgresql+psycopg2://catalog:xmp-thfg@localhost/catalog')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
